@@ -1,0 +1,276 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #faf8ef;
+    color: brown;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+}
+
+body {
+    margin: 80px 0;
+}
+
+.field-row {
+    width: 100%;
+    display: flex;
+    height: calc(100%/4);
+}
+
+.field-cell {
+    margin: 1%;
+    width: calc(88%/4);
+    height: calc(88%/4);
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+}
+
+.container {
+    height: 820px;
+    width: 650px;
+    background-color: black;
+    margin: auto;
+    background-color: lightgray;
+}
+
+.header {
+    height: 15%;
+    width: 100%;
+    background-color: #FDFBA0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.game {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    margin-bottom: 2%;
+    margin-top: 2%;
+    height: 80%;
+    margin-left: 2%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.new-game {
+    height: 20%;
+    width: 100%;
+    text-align: center;
+}
+
+.field-row :first-child {
+    margin-left: 2%;
+}
+
+.field-row :last-child {
+    margin-right: 2%;
+}
+
+.game-scores {
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 45%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    color: black;
+    justify-content: center;
+}
+
+.score {
+    height: 100;
+    width: 96%;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.best {
+    height: 100;
+    padding: 5px;
+    width: 48%;
+    border: 1px solid black;
+}
+
+.newButton {
+    width: 70%;
+    height: 85%;
+    margin: 2%;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 16px;
+    padding: 1%;
+    color: red;
+}
+
+.two {
+    background-color: lightyellow;
+    margin: 1%;
+    width: calc(88%/4);
+    height: calc(88%/4);
+    border-radius: 25px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+}
+
+.four {
+    background-color: grey;
+    margin: 1%;
+    width: calc(88%/4);
+    height: calc(88%/4);
+    border-radius: 25px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+}
+
+.zero {
+    background-color: white;
+    margin: 1%;
+    width: calc(88%/4);
+    height: calc(88%/4);
+    border-radius: 25px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+}
+
+.eight {
+    background-color: lightcoral;
+    margin: 1%;
+    width: calc(88%/4);
+    height: calc(88%/4);
+    border-radius: 25px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+}
+
+.sixteen {
+    background-color: orange;
+    margin: 1%;
+    width: calc(88%/4);
+    height: calc(88%/4);
+    border-radius: 25px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+}
+
+.threeTwo {
+    background-color: lightskyblue;
+    margin: 1%;
+    width: calc(88%/4);
+    height: calc(88%/4);
+    border-radius: 25px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+}
+
+.sixFour {
+    background-color: maroon;
+    margin: 1%;
+    width: calc(88%/4);
+    height: calc(88%/4);
+    border-radius: 25px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+}
+
+.oneTwoEight {
+    background-color: yellow;
+    margin: 1%;
+    width: calc(88%/4);
+    height: calc(88%/4);
+    border-radius: 25px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+}
+
+.twoFiveSix {
+    background-color: hotpink;
+    margin: 1%;
+    width: calc(88%/4);
+    height: calc(88%/4);
+    border-radius: 25px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+}
